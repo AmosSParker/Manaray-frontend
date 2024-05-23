@@ -1,0 +1,51 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('../../assets/svg/wave-background.svg'); /* Subtle wave background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-container {
+  backdrop-filter: blur(10px); /* Blur effect for a subtle background */
+}
+
+.card {
+  border-radius: 12px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+}
+
+h1 {
+  font-weight: 300;
+  color: #0077b6; /* Deep ocean blue */
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #0077b6; /* Matching border color */
+}
+
+.btn-primary {
+  background-color: #0077b6; /* Deep ocean blue */
+  border-color: #0077b6;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #005f8a; /* Darker shade on hover */
+  border-color: #004b6b;
+}
+
+.alert-danger {
+  border-radius: 5px;
+}
+
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+  color: #0077b6; /* Matching color for the spinner */
+}
+
+  

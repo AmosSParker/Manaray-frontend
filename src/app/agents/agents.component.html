@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Agents</h2>
+  <div *ngIf="agents.length === 0">No agents available.</div>
+  <div *ngIf="agents.length > 0">
+    <ul class="list-group">
+      <li *ngFor="let agent of agents" class="list-group-item">
+        <h5>{{ agent.Name }}</h5>
+        <p>Status: {{ agent.Status }}</p>
+        <p>Last Seen: {{ agent.LastCheckIn }}</p>
+        <button (click)="editAgent(agent)" class="btn btn-primary btn-sm">Edit</button>
+        <button (click)="deleteAgent(agent.ID)" class="btn btn-danger btn-sm">Delete</button>
+      </li>
+    </ul>
+  </div>
+</div>
